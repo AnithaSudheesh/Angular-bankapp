@@ -1,0 +1,38 @@
+           Angular
+..............................
+
+1. components-(root component-app component)
+
+2. modules-(root module-app module)
+
+3.angular form
+
+  3.1. template driven angular forms
+  3.2. model driven angular forms
+  
+4. data binding
+
+ 4.1.one way binding
+
+   . data passing from component to view
+
+      1. string interpolation or simply interpolation (syntax:{{Expression}})
+      2. property binding-syntax:[binding-target]="binding source"
+
+   . data passing from view to component
+
+     1. event binding  syntax:(event)="function call"
+     2. event binding using argument as $event - syntax:(event)="function ($event)"
+
+ 4.2.two way binding - ng model -formsModule syntax:[(ngModule)] = "variable-name"
+
+
+ 5. Angular routing - to set path of angular forms
+
+ 6. dependency injection
+
+ 7. ngSubmit
+
+ 8. angular service 
+
+ 9.reactive forms
